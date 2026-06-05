@@ -12,7 +12,18 @@ import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv(encoding="utf-8-sig")
+
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+
+try:
+    OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
+except Exception:
+    pass
+
+if not OPENROUTER_API_KEY:
+    st.error("OPENROUTER_API_KEY not found.")
+    st.stop()
+
 MODEL = "openai/gpt-3.5-turbo"
 
 st.set_page_config(
