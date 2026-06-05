@@ -1,9 +1,14 @@
-# ResumeIQ — AI-Powered Resume Analysis Dashboard
+# 🎯 ResumeIQ — AI-Powered ATS Resume Analysis Dashboard
 
-ResumeIQ is an AI-powered resume analysis platform that helps users evaluate and improve their resumes through ATS (Applicant Tracking System) analysis.
+An intelligent resume analysis platform built with Streamlit and OpenRouter.
 
-Users can upload a PDF resume and instantly receive an ATS score, strengths, weaknesses, improvement suggestions, skill insights, and keyword analysis through an interactive dashboard.
+## 🚀 Live Demo
 
+🔗 https://your-app-name.streamlit.app
+
+## 📌 Overview
+
+ResumeIQ is an AI-powered ATS Resume Analysis Dashboard that helps users evaluate and improve their resumes through automated feedback, ATS scoring, keyword analysis, and actionable recommendations.
 
 # Features
 
