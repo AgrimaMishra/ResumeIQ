@@ -4,7 +4,7 @@ An intelligent resume analysis platform built with Streamlit and OpenRouter.
 
 ## 🚀 Live Demo
 
-🔗 https://your-app-name.streamlit.app
+🔗 [https://your-app-name.streamlit.app](https://resume-iq-dashboard.streamlit.app/)
 
 ## 📌 Overview
 
